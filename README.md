@@ -6,20 +6,19 @@ A machine learning project that detects unusual NBA player performance profiles 
 
 We compare two players to illustrate how the model distinguishes anomalous profiles from normal ones.
 
-### Normal Player
-
-<img width="1139" height="442" alt="shap_TraeYoung_not_anomaly" src="https://github.com/user-attachments/assets/f33ccefb-44ce-4f4c-9134-2eb894db6bcc" />
-
-This player is classified as normal because negative feature contributions outweigh positive ones, resulting in a low anomaly score.
-
----
-
 ### Anomalous Player
 
 <img width="1059" height="434" alt="shap_NikolaJokić_anomaly" src="https://github.com/user-attachments/assets/e77b77f0-ba4b-4a9e-bdb7-a58d18eed3c4" />
 
 This player is identified as an anomaly due to a rare combination of high assists and rebounds, which strongly increases the anomaly score.
 
+---
+
+### Normal Player
+
+<img width="1139" height="442" alt="shap_TraeYoung_not_anomaly" src="https://github.com/user-attachments/assets/f33ccefb-44ce-4f4c-9134-2eb894db6bcc" />
+
+This player is classified as normal because negative feature contributions outweigh positive ones, resulting in a low anomaly score.
 
 ## Overview
 
